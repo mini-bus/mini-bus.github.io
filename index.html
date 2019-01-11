@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -27,7 +27,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet"  href="styles.css">
-  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="lib/css/animate.css">
 
 
   <!-- Favicon
@@ -39,10 +39,10 @@
 
   <!--Navigation-->
   
-    <nav class="navbar navbar-default navbar" id="navbar-tweak">
+    <nav class="navbar navbar-default navbar">
         <div class="container">
               <div class="col-md-3">
-               <img src="img/bg.png" alt="Logo">
+               <img src="img/logo-for-web.png" id="logo-tweak" alt="Logo">
               </div>
         <div class="col-md-9">
               <div class="navbar-header">
@@ -55,9 +55,9 @@
               <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav">
                 <li> <a href="index.html">    Home </a></li>
-                <li> <a href="#mine"> Our Story </a></li>
-                <li> <a href="gallery.html">  Gallery </a></li>
-                <li> <a href="message.html">  Contact </a></li>
+                <li> <a href="#our-story"> Our Story </a></li>
+                <li> <a href="#">  Gallery </a></li>
+                <li> <a href="#contact-us">  Contact </a></li>
                </ul>
               </div>
                 
@@ -78,7 +78,7 @@
              </div>
           </div>
           <div class="item">
-           <img src="img/basilwear-cool.jpg" class="img-responsive animated slideInRight">
+           <img src="img/cool-beans-wear.jpg" class="img-responsive animated slideInRight">
             <div class="carousel-caption">
               <h2 class="animated fadeInUp">Get Yours Now</h2>
               <p class="animated fadeInUp">Do not be left out</p>
@@ -117,11 +117,38 @@
     </div>
    </div>
 </div>
+<div class="container-fluid" id="our-process-section">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <!--Information about out process-->
+      <h2 id="our process">Our Process</h2>
+      <p>Customer journey from entry to checkout</p>
+      
+  
+    </div>
+  </div>
+</div>
 
 <div class="container-fluid" id="third-section">
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12">
       <!--contact information-->
+      <h2 id="contact-us">Contact Us</h2>
+  <form action="#" id="my-form">
+
+    <label for="fname"></label>
+    <input type="text" id="fname" class="form-control" name="firstname" placeholder="Your name..">
+
+    <label for="lname"></label>
+    <input type="text" id="lname" class="form-control" name="lastname" placeholder="Your last name..">
+
+    <label  for="subject"></label>
+    <textarea id="subject" class="form-control" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" class="form-control" value="Submit">
+
+  </form>
+
     </div>
   </div>
 </div>
@@ -132,10 +159,10 @@
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12">
         <h4>Site Map</h4>
-          <p> Home</p>
-          <p> About Us </p>
-          <p> Gallery </p>
-          <p> Contact Us </p>
+          <p> <a href="index.html"> Home</a></p>
+          <p> <a href="#our-story">Our Story</a></p>
+          <p> <a href="#gallery">Gallery</a></p>
+          <p> <a href="#contact-us">Contact Us</a></p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12">
         <h4> OUR ADDRESS </h4>
@@ -148,9 +175,9 @@
           <div>
               <h4> FOLLOW US</h4>
               
-              <i class="fab fa-linkedin"></i>
-              <i class="fab fa-snapchat"></i>
-              <i class="fab fa-github"></i>
+             <a href="http://" target="_blank"><i class="fab fa-linkedin"></i></a>
+             <a href="http://" target="_blank" ><i class="fab fa-snapchat"></i></a>
+             <a href="http://" target="_blank"><i class="fab fa-github"></i></a>
            </div>
            
            <div>
