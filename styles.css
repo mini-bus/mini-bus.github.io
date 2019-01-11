@@ -1,0 +1,372 @@
+
+body,html {
+
+  margin: auto 0;
+}
+
+
+  nav ul {
+    
+    margin-top: 20px;
+    width: auto;
+ 
+
+  }
+
+  nav li {
+    color: #000;
+    display: inline;
+    padding: 20px 2px 5px 15px;
+    margin: 10px 2px 5px 15px;
+    text-transform: uppercase;
+    font-family: 'Josefin Slab', serif;
+    
+   
+  }
+
+  .navbar-toggle .icon-bar 
+  {
+
+ position: relative;
+ transition:all 500ms ease-in-out;
+ width:30px;
+ height:2px;
+ background-color: #fafafa;
+ color: #000;
+   }
+
+.navbar-toggle .icon-bar:nth-of-type(1)
+
+{
+top:1px;
+background-color:#000;
+
+}
+
+.navbar-toggle .icon-bar:nth-of-type(2){
+top:3px;
+background-color:#000;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3){
+top:5px;
+background-color:#000;
+
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1)
+
+{
+top:9px;
+transform:rotate(45deg);
+
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2)
+
+{
+background-color: transparent;
+
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3)
+{
+
+ top: -6px;
+transform:rotate(-25deg);
+
+}
+
+div h2 {
+
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+}
+
+div p {
+
+  font-family: 'Josefin Slab', serif;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+h1{
+
+  font-family: 'Josefin Slab', serif;
+  text-transform: uppercase;
+  color: #ffffff;
+
+}
+
+h1 i {
+
+  color: #ffffff;
+}
+
+
+/* Responsiveness*/ 
+
+@media only screen and (max-width:768px)
+{
+
+  div.carousel.media-carousel {
+
+    z-index: 0;
+  }
+
+ .navbar-collapse {
+  position: absolute;
+  top:52%;
+  right:0%;
+  clip-path: circle(0px at top right);
+  background-color: #000;
+  color: #fff;
+  transition: all 500ms ease-in-out;
+  width: 100%;
+  text-align: center;
+  z-index:1
+
+ }
+
+ .collapse{
+     clip-path: circle(120% at top left);
+     border:none;
+
+ }
+
+ ul.nav.navbar-nav {
+
+  margin-bottom: 0;
+ }
+
+ .navbar-nav.nav li a{
+     
+     margin:2px;
+     color: #fff;
+     
+ }
+
+ .navbar-nav.nav li a:hover{
+
+   
+     color: #000;
+     background-color: #fff;
+ }
+
+ .navbar-toggle{
+     top:-4em;
+ 
+ }
+
+ .header-border{
+     border:none;
+ }
+
+ div h2 {
+
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+}
+
+div p {
+
+  font-family: 'Josefin Slab', serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+h1{
+
+  font-family: 'Josefin Slab', serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+
+}
+
+
+   div.navbar-header {
+
+    margin-bottom: 0;
+    height: 0;
+
+   }
+
+   img#my-story {
+
+    height: 150px;
+    width:100%;
+    background-color: #fafafa;
+    margin-bottom: 30px;
+    padding-right: 200px;
+    
+    
+  
+  }
+
+}
+
+/* End of responsive code*/
+
+  
+
+   nav li:hover {
+    animation-name: my-hover;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+  }
+
+  @keyframes my-hover {
+
+    0% {
+
+    color: #000000;
+    border-bottom: 0.3px solid #000000;
+    
+    }
+
+    50% {
+
+      color: #000000;
+      border-bottom: 0.5px solid #fafafa;
+      
+      }
+
+      75% {
+
+        color: #000000;
+        border-bottom: 1px solid #000000;
+        
+        }
+
+
+        100% {
+
+          color: #000;
+          border-bottom: 1px solid #000000;
+         
+          }
+  }
+
+
+  #slider {
+
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }
+ 
+
+i {
+
+    
+    margin: 2px 5px 2px 5px;
+    padding: 5px 20px 2px 5px;
+    color: #000;
+
+}
+
+a {
+
+  color: #000;
+}
+
+a:hover {
+
+ text-decoration: none;
+ color: #000;
+}
+
+
+
+#my-footer
+{
+
+    background-color: #2b2a2a;
+    color: #fafafa;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+footer h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  
+}
+
+footer i {
+  color: #fafafa;
+
+}
+
+
+footer p {
+font-family: 'arial';
+font-size: 10px;
+text-align: center;
+}
+
+#secondary-section {
+
+  height: 400px;
+  background-color: #ffffff ;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color:  #000;
+}
+
+#secondary-section p {
+
+  font-size: 16px;
+  font-family: 'Josefin Slab', serif;
+  text-transform: initial;
+
+}
+
+#secondary-section h2 {
+
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#my-story {
+
+  height: 250px;
+  background-color: #fafafa;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 200px;
+  
+
+}
+
+#banner-style {
+
+  background-image: url('img/keep-it.jpg');
+  color: #ffffff;
+  height: 400px;
+  color: #000;
+  text-align: center;
+  padding-top: 300px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#third-section {
+  height: 500px;
+  background-color: #e5e5e5;
+  opacity: 0.3;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 50px;
+
+
+}
